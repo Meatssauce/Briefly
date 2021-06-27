@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "SummariseThis",
+  "description": "This extension summarises articles on websites.",
+  "version": "0.1",
+
+  "icons": {
+    "16": "logo_16.png",
+    "48": "logo_48.png",
+    "128": "logo_128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "logo_16.png",
+    "default_popup": "popup.html",
+    "default_title": "SummariseThis\n\nLeft-click to summarise!\nRight-click for options."
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://127.0.0.1:5000/*"
+  ]
+}
