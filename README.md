@@ -5,3 +5,5 @@ app.py runs GPT-2 on a server which handles API requests from the broswer extens
 summarise-simple.py contains a simple demo of summarising text using GPT-2.
 
 Briefly extension is where the browser plugin is stored.
+
+Devfolio project link: https://devfolio.co/submissions/briefly-3198
